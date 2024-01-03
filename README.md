@@ -3,8 +3,8 @@ Todo lo necesario para runnear el programa se encuentra en el mismo notebook, co
 
 ### Contexto
 Las antenas del observatorio ALMA se ubican en el llano de Chajnantor a 4800 metros sobre el nivel
-del mar, en el Desierto de Atacama. Estas antenas miden se˜nales de radio frecuencia en longitudes
-de onda milimétricas y submilim´etricas. La señal capturada por las antenas, entonces, no es la luz
+del mar, en el Desierto de Atacama. Estas antenas miden señales de radio frecuencia en longitudes
+de onda milimétricas y submilimétricas. La señal capturada por las antenas, entonces, no es la luz
 visible emitida por el objeto, sino la radiación que esa luz produce al interactuar con el gas y polvo
 que se encuentra alrededor del objeto. Luego, es necesario transformar esta se˜nal de RF a una se˜nal
 de intensidad. Este proceso se llama síntesis de imágenes.
@@ -19,5 +19,5 @@ pasa el tiempo y gira la tierra, el punto se mueve en el plano uv.
 - Se utiliza Kafka para crear 1 productor con X tópicos donde cada visibilidad (En este caso son 3 millones aprox.) dependiente de su tópico le corresponderá un tópico en particular.
 - Mediante sentencias SQL el consumidor realiza el gridding y operaciones correspondientes que guardará en un .csv para finalmente graficar
 
-### Resultado con 3 millones de visb
+### Resultado con 3 millones de visibilidades
 ![image](https://github.com/nic0q/Kafka-Spark-Gridding-Streaming/assets/91075814/880051e0-b375-47b6-a985-77f5adc42ffe)
