@@ -1,4 +1,5 @@
 # Kafka - Spark Streaming
+Nota: 6.5 🤑
 Todo lo necesario para runnear el programa se encuentra en el mismo notebook, con sus respectivas versiones.
 
 ### Contexto
